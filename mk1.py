@@ -34,6 +34,7 @@ driver.get(url=URL)
 
 
 
+
 #--------------------------홈페이지 접속
 html = urlopen(URL)
 bsobj = BeautifulSoup(html, 'html.parser')
@@ -48,3 +49,5 @@ bsobj = BeautifulSoup(html, 'html.parser')
 
 
 print('hello')
+
+
