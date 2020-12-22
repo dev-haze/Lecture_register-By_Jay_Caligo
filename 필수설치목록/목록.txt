@@ -1,0 +1,9 @@
+chromium 버전 맞는거로
+
+
+<pip list>===================================
+
+selenium
+
+bs4
+requests
