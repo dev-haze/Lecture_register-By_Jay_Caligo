@@ -29,6 +29,14 @@ res.raise_for_status()
 
 
 
+#print(soup.span)
+
+#print(soup.find_all('span', {'class': 'nickname MY_NICKNAME'}))
+
+print(soup.find_all('span', ))
+
+
+
 #print(res.headers)
 #print(session.cookies.get_dict())
 
