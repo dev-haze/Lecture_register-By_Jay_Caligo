@@ -2,12 +2,14 @@ from selenium import webdriver #1
 
 
 url = "https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com" # 로그인페이지 url 넣기
+# 아이디 & 비번
+id = "biglai"
+pw = "dkdlwkr123!"
+
+
 
 #========================================================================================================================================================================
 def login():
-    #아이디 & 비번
-    id = "biglai"
-    pw = "dkdlwkr123!"
 
     id_box = driver.find_element_by_xpath("//*[@id='id']") #로그인 아이디 입력 박스 검사해서 따온 xpath 넣기
     id_box.click()
