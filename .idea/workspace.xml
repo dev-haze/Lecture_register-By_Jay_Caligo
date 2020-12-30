@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="792e5de7-190e-4efa-ad54-9bb6552aa6ee" name="Default Changelist" comment="클릭&amp;타이핑 성공. 로그인 구현중">
-      <change afterPath="$PROJECT_DIR$/login_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/real_login.py" afterDir="false" />
+    <list default="true" id="792e5de7-190e-4efa-ad54-9bb6552aa6ee" name="Default Changelist" comment="로그인 구현중">
+      <change afterPath="$PROJECT_DIR$/login/login1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s_click_testt.py" beforeDir="false" afterPath="$PROJECT_DIR$/s_click_testt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +52,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bigla\OneDrive\문서\대학\수강신청서포터\Lecture_register-By_Jay_Caligo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bigla\OneDrive\문서\대학\수강신청서포터\Lecture_register-By_Jay_Caligo" />
     </key>
   </component>
@@ -262,7 +262,9 @@
       <workItem from="1608618267583" duration="8113000" />
       <workItem from="1608791864306" duration="2117000" />
       <workItem from="1608794007131" duration="13479000" />
-      <workItem from="1608971717286" duration="1483000" />
+      <workItem from="1608971717286" duration="3192000" />
+      <workItem from="1609154322767" duration="1329000" />
+      <workItem from="1609299253904" duration="1048000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1608792661077</created>
@@ -285,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608802716516</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="로그인 구현중">
+      <created>1608976458969</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608976458969</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +317,8 @@
     <MESSAGE value="a" />
     <MESSAGE value="셀레늄 접속 확인" />
     <MESSAGE value="클릭&amp;타이핑 성공. 로그인 구현중" />
-    <option name="LAST_COMMIT_MESSAGE" value="클릭&amp;타이핑 성공. 로그인 구현중" />
+    <MESSAGE value="로그인 구현중" />
+    <option name="LAST_COMMIT_MESSAGE" value="로그인 구현중" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -351,7 +361,7 @@
     <SUITE FILE_PATH="coverage/Lecture_register_By_Jay_Caligo$click2.coverage" NAME="bs4_test Coverage Results" MODIFIED="1608795105636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/Lecture_register_By_Jay_Caligo$login_test.coverage" NAME="login_test Coverage Results" MODIFIED="1608803316069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/Lecture_register_By_Jay_Caligo$login_test2.coverage" NAME="login_test2 Coverage Results" MODIFIED="1608812312652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
-    <SUITE FILE_PATH="coverage/Lecture_register_By_Jay_Caligo$real_login.coverage" NAME="real_login Coverage Results" MODIFIED="1608813398375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/Lecture_register_By_Jay_Caligo$real_login.coverage" NAME="real_login Coverage Results" MODIFIED="1608977065477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/Lecture_register_By_Jay_Caligo$Lecture_register_By_Jay_Caligo.coverage" NAME="Lecture_register-By_Jay_Caligo Coverage Results" MODIFIED="1608795009761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/Lecture_register_By_Jay_Caligo$selenium_test.coverage" NAME="selenium_test Coverage Results" MODIFIED="1608801150573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/Lecture_register_By_Jay_Caligo$s_click_testt.coverage" NAME="s_click_testt Coverage Results" MODIFIED="1608802627190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
