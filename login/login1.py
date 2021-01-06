@@ -22,10 +22,20 @@ pw = 'DKDLWKR123!'
 
 driver = webdriver.Chrome("C:/Users/bigla/OneDrive/문서/대학/수강신청서포터/Lecture_register-By_Jay_Caligo/chromedriver87.exe")#1
 driver.get(url)
-#id
-driver.execute_script("document/getElementsByName('id')[0].value=\'"+id+"\'")
-#pw
-driver.execute_script("document/getElementsByName('id')[0].value=\'"+id+"\'")
+
+
+#수동 로그인 대기
+cmd = "default"
+input(cmd)
+
+
+
+
+
+
+
+
+
 
 
 
